@@ -46,7 +46,7 @@ $(document).ready(function() {
 			$('.slide-clone').remove()
 			$('.locked').css('opacity', '1').removeClass('locked').addClass('slick-active')
 			$(this).clone().addClass('slide-clone locked').appendTo('.slick-list')
-			$(this).addClass('locked').css('opacity', '0.1')
+			$(this).addClass('locked').css('opacity', '0')
 
 			// индекс выбранного слайда из активных слайдов
 			let slideActiveIndex = $(this).index('.slick-active')
