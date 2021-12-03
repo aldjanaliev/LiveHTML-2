@@ -40,8 +40,6 @@ $(document).ready(function() {
 
 	$('.slider-wrap').on('click', '.slick-slide', function() {
 
-		$( window ).resize()
-
 		if(!$(this).hasClass('locked') && slidesToShow > 1) {	
 			$('.slide-clone').remove()
 			$('.locked').css('opacity', '1').removeClass('locked').addClass('slick-active')
